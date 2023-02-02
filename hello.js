@@ -1,4 +1,6 @@
+
 function sayHello() {
+let msg = "hello";
 	console.log('hello!');
 }
 
