@@ -1,14 +1,16 @@
-
-function sayHello() {
-let msg = "hello";
-	console.log('hello!');
+function sayHello(name) {
+	return saySomethingLowerCase(`Hello ${name}!`);
 }
 
-function sayingGoodbye() {
-	console.log('good bye');
+function sayingGoodbye(name) {
+	return saySomethingLowerCase(`Goodbye ${name}!`);
 }
 
+function saySomethingLowerCase(str) {
+	return str.toLowerCase();;
+}
 
-sayHello();
-
-sayingGoodbye();
+module.exports = {
+	sayHello,
+	sayingGoodbye,
+}
