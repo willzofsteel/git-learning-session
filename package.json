@@ -1,0 +1,23 @@
+{
+  "name": "git-learning-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willzofsteel/git-learning-session.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willzofsteel/git-learning-session/issues"
+  },
+  "homepage": "https://github.com/willzofsteel/git-learning-session#readme",
+  "devDependencies": {
+    "jasmine": "^4.5.0"
+  }
+}
